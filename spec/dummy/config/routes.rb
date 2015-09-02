@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-
-  mount GithubReleases::Engine => "/github_releases"
+  mount GithubReleases::Engine => "/releases"
 end

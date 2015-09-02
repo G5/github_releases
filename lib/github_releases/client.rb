@@ -1,7 +1,7 @@
 module GithubReleases::Client
-  def fetch(key, endpoint)
+  def fetch(key, resource)
     return cache.read(key) if cache.exist?(key)
-    cache.write(key, get(endpoint))
+    cache.write(key, get(resource))
     cache.read(key)
   end
 

@@ -12,11 +12,12 @@ Gem::Specification.new do |s|
   s.description = 'TODO: Description of GithubReleases.'
   s.license     = 'MIT'
 
-  s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
+  s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
   s.test_files = Dir['rspec/**/*']
 
   s.add_dependency 'rails', '~> 4.1.0'
   s.add_dependency 'httparty'
+  s.add_dependency 'sqlite3'
 
   s.add_development_dependency 'rspec-rails'
 end
