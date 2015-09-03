@@ -5,7 +5,7 @@ displaying a current version.
 
 ## Current Version
 
-0.0.1
+[![Gem Version](https://badge.fury.io/rb/github_releases.svg)](http://badge.fury.io/rb/github_releases)
 
 ## Requirements
 
