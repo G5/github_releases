@@ -1,11 +1,10 @@
 # Github Releases
 
+[![Gem Version](https://badge.fury.io/rb/github_releases.svg)](http://badge.fury.io/rb/github_releases)
+[![Build Status](https://travis-ci.org/G5/github_releases.svg?branch=master)](https://travis-ci.org/G5/github_releases)
+
 Github Releases creates an endpoint that exposes an app's releases for use in
 displaying a current version.
-
-## Current Version
-
-[![Gem Version](https://badge.fury.io/rb/github_releases.svg)](http://badge.fury.io/rb/github_releases)
 
 ## Requirements
 
