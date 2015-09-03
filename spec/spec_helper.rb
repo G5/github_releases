@@ -3,7 +3,6 @@ ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path("../dummy/config/environment.rb",  __FILE__)
 require 'rspec/rails'
 require 'pry'
-require 'generator_spec'
 require 'httparty'
 
 Rails.backtrace_cleaner.remove_silencers!
