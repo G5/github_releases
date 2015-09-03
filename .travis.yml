@@ -2,5 +2,6 @@ language: ruby
 rvm:
   - 2.2.2
 before_script:
+  - mkdir spec/dummy/tmp
   - mkdir spec/dummy/tmp/cache
 script: bundle exec rspec
