@@ -5,7 +5,7 @@ displaying a current version.
 
 ## Current Version
 
-0.0.0
+0.0.1
 
 ## Requirements
 
