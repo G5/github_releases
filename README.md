@@ -51,7 +51,7 @@ An app that utilizes Github's release feature
 
    ```ruby
    class ApplicationController < ActionController::Base
-      helper GithubRelease::ApplicationHelper
+      helper GithubReleases::ApplicationHelper
    end
    ```
 
