@@ -43,3 +43,18 @@ Processing by GithubReleases::ReleasesController#index as HTML
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 Processing by GithubReleases::ReleasesController#index as HTML
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)

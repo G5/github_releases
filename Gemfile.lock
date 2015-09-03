@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    github_releases (0.0.2)
+    github_releases (0.0.3)
       httparty
       rails (~> 4.1.0)
       sqlite3
