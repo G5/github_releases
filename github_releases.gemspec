@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = GithubReleases::VERSION
   s.authors     = ['bbauer']
   s.email       = ['brian.bauer@g5platform.com']
-  s.homepage    = 'TODO'
-  s.summary     = 'TODO: Summary of GithubReleases.'
-  s.description = 'TODO: Description of GithubReleases.'
+  s.homepage    = ''
+  s.summary     = 'Exposes an apps Github releases'
+  s.description = 'Exposes an apps Github releases'
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'sqlite3'
 
   s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'pry'
 end
