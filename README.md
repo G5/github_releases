@@ -68,6 +68,12 @@ For pure Rails apps, you may access the current_version of your app with a view 
 <%= current_version %>
 ```
 
+Or if you don't want to add the helper module to your controller, you can call the class directly...
+
+```Ruby
+<%= GithubReleases.release('latest')['tag_name'] %>
+```
+
 **IMPORTANT** All calls to the GitHub API are cached. It's up to you to refresh the cache when releases should be updated. There are two ways to do this. Via the rake task...
 
 ```
