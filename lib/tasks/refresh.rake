@@ -1,6 +1,6 @@
 namespace :github_releases do
   desc 'Refreshes the cached API calls'
-  task refresh_cache: :environment do
-    GithubReleases.refresh_cache
+  task refresh: :environment do
+    GithubReleases.refresh
   end
 end

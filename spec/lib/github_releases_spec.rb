@@ -1,7 +1,8 @@
 require 'spec_helper'
 
 describe GithubReleases do
-  let(:response) { double(body: { foo: 'bar' }.to_json) }
+  let(:response) { double(body: { 'tag_name' => tag_name }.to_json) }
+  let(:tag_name) { 'v1.0.0' }
   let(:parsed_response) { JSON.parse(response.body) }
   let(:domain) { GithubReleases.github_api }
   let(:username) { GithubReleases.username }
@@ -22,10 +23,10 @@ describe GithubReleases do
     allow(Rails.cache).to receive(:read)
   end
 
-  describe '.refresh_cache' do
-    subject(:refresh_cache) { described_class.refresh_cache }
+  describe '.refresh' do
+    subject(:refresh) { described_class.refresh }
 
-    before { refresh_cache }
+    before { refresh}
 
     it 'it writes the cache for all releases' do
       expect(Rails.cache).to have_received(:write).
@@ -38,15 +39,15 @@ describe GithubReleases do
     end
   end
 
-  describe '.releases' do
+  describe '.all' do
     let(:key) { GithubReleases::RELEASES_KEY }
-    subject(:releases) { described_class.releases }
+    subject(:all) { described_class.all }
 
     context 'existing cache data' do
       before { Rails.cache.write(key, 'foo') }
 
       it 'reads the data from the cache' do
-        releases
+        all
         expect(Rails.cache).to have_received(:read).with(key)
       end
     end
@@ -54,7 +55,7 @@ describe GithubReleases do
     context 'no existing cache data' do
       before do
         Rails.cache.clear
-        releases
+        all
       end
 
       it 'calls the GithubReleases API with the appropriate parameters' do
@@ -71,17 +72,17 @@ describe GithubReleases do
     end
   end
 
-  describe '.release' do
+  describe '.find' do
     let(:id) { 'latest' }
     let(:key) { "#{GithubReleases::RELEASE_KEY}-#{id}" }
 
-    subject(:release) { described_class.release(id) }
+    subject(:find) { described_class.find(id) }
 
     context 'existing cache data' do
       before { Rails.cache.write(key, 'foo') }
 
       it 'reads the data from the cache' do
-        release
+        find
         expect(Rails.cache).to have_received(:read).with(key)
       end
     end
@@ -89,7 +90,7 @@ describe GithubReleases do
     context 'no existing cache data' do
       before do
         Rails.cache.clear
-        release
+        find
       end
 
       it 'calls the GithubReleases API with the appropriate parameters' do
@@ -103,6 +104,23 @@ describe GithubReleases do
 
       it 'reads the data from the cache' do
         expect(Rails.cache).to have_received(:read).with(key)
+      end
+    end
+  end
+
+  describe '.find' do
+    subject(:current_version) { described_class.current_version }
+
+    before { described_class.stub(find: { 'tag_name' => tag_name }) }
+
+    context 'overriden version number' do
+      it 'returns version from the ENV var' do
+      end
+    end
+
+    context 'no override' do
+      it 'returns version from the API' do
+        expect(current_version).to eq(tag_name)
       end
     end
   end

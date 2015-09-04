@@ -58,3 +58,144 @@ Processing by GithubReleases::ReleasesController#index as HTML
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 Processing by GithubReleases::ReleasesController#index as HTML
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 500 Internal Server Error in 3646ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 500 Internal Server Error in 1644ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 500 Internal Server Error in 596ms (ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#current_version as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Processing by GithubReleases::ReleasesController#show as HTML
+  Parameters: {"id"=>"latest"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
