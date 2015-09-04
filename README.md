@@ -46,44 +46,30 @@ An app that utilizes Github's release feature
    ```
 
    This mounts the engine at `/releases`.
-   
-   If you're using a pure Rails app, and want to use the current_version view helper, add     GithubReleases::ApplicationHelper to your ApplicationController.
-
-   ```ruby
-   class ApplicationController < ActionController::Base
-      helper GithubReleases::ApplicationHelper
-   end
-   ```
 
 ## Usage
 
 The engine exposes an endpoint at '/releases' that will list all of the app's
-releases in json. '/releases/latest' will expose the latest release to use in
-displaying your apps current version. You may also access any single release
-by id '/releases/:id'.
+releases in json. '/releases/latest' will expose the latest release. '/releases/current_version' will return the version number of the latest release. You may also access any single release by id '/releases/:id'.
 
-For pure Rails apps, you may access the current_version of your app with a view helper...
+For pure Rails apps, you may access the current_version of your app with a class method...
 
 ```Ruby
-<%= current_version %>
+<%= GithubReleases.current_version %>
 ```
 
-Or if you don't want to add the helper module to your controller, you can call the class directly...
-
-```Ruby
-<%= GithubReleases.release('latest')['tag_name'] %>
-```
+For staging environments or temp fixes, you may set a CURRENT_VERSION environment variable that will override the Github version number.
 
 **IMPORTANT** All calls to the GitHub API are cached. It's up to you to refresh the cache when releases should be updated. There are two ways to do this. Via the rake task...
 
 ```
-rake github_releases:refresh_cache
+rake github_releases:refresh
 ```
 
 Or via a Ruby class method...
 
 ```Ruby
-GithubReleases.refresh_cache
+GithubReleases.refresh
 ```
 
 One strategy is to run the rake task in a post deploy hook.
