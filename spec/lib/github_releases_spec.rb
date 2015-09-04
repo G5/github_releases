@@ -114,7 +114,12 @@ describe GithubReleases do
     before { described_class.stub(find: { 'tag_name' => tag_name }) }
 
     context 'overriden version number' do
+      let(:custom_version) { 'staging' }
+
+      before { stub_const('ENV', { 'CURRENT_VERSION' => custom_version }) }
+
       it 'returns version from the ENV var' do
+        expect(current_version).to eq(custom_version)
       end
     end
 
