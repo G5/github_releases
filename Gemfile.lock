@@ -1,10 +1,9 @@
 PATH
   remote: .
   specs:
-    github_releases (0.0.4)
+    github_releases (0.0.5)
       httparty
       rails (~> 4.1.0)
-      sqlite3
 
 GEM
   remote: https://rubygems.org/
@@ -111,3 +110,4 @@ DEPENDENCIES
   github_releases!
   pry
   rspec-rails
+  sqlite3
